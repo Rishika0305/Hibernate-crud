@@ -1,8 +1,5 @@
 Hibernate CRUD Operations Using Java and MySQL
 
-Project Description:
-This project is a console-based Hibernate CRUD application developed using Java, Hibernate ORM, MySQL, and Maven. The project demonstrates how Hibernate performs Create, Read, Update, and Delete (CRUD) operations using ORM (Object Relational Mapping).
-
 Technologies Used:
 - Java
 - Hibernate ORM
@@ -19,31 +16,6 @@ Project Features:
 - Display All Employees
 - Hibernate Configuration using XML
 - Database connectivity with MySQL
-
-Project Structure:
-- Employee.java
-- EmpSave1.java
-- Emp.hbm.xml
-- hibernate.cfg.xml
-- pom.xml
-
-Database:
-- MySQL Database using XAMPP
-
-Database Name:
-employee-db
-
-Table Name:
-emp
-
-Sample Table Structure:
-
-CREATE TABLE emp (
-    eid INT PRIMARY KEY,
-    ename VARCHAR(100),
-    esal DOUBLE,
-    desig VARCHAR(100)
-);
 
 Software Requirements:
 - Java JDK
@@ -68,12 +40,6 @@ hibernate.cfg.xml contains:
 - Hibernate dialect
 - Mapping resource
 - hbm2ddl.auto property
-
-Important Notes:
-- MySQL service must be running
-- Database credentials must match Hibernate configuration
-- Maven dependencies must be downloaded properly
-- Hibernate mapping file should be configured correctly
 
 Project Operations:
 1. Insert Employee
